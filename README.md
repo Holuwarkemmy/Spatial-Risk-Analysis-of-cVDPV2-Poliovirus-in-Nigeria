@@ -57,6 +57,7 @@ To identify, classify, and visualise LGA level cVDPV2 transmission risk in Niger
 ### 4.2 Dashboard Development (Power BI)
 
 The final processed dataset was imported into Power BI to develop an interactive dashboard featuring:
+
 • National choropleth map of cVDPV2 risk by LGA
 
 • Distribution of LGAs by risk category  
@@ -88,6 +89,7 @@ The national risk map reveals that cVDPV2 risk in Nigeria is highly clustered, r
 • Most LGAs fall within Very Low or Low Risk categories  
 
 • High and Very High Risk LGAs form distinct spatial clusters, particularly in:
+
   • Northern urban centres  
   
   • Densely populated peri-urban areas  
@@ -131,6 +133,7 @@ Urban LGAs with high population density dominate the high-risk ranking, reinforc
 ## 6. Discussion
 
 The analysis demonstrates that cVDPV2 transmission risk in Nigeria is spatially concentrated and predictable. High-risk LGAs are characterised by:
+
 • High case burden  
 
 • High population density  
