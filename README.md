@@ -42,42 +42,29 @@ To identify, classify, and visualise LGA level cVDPV2 transmission risk in Niger
 
 ### 4.1 Spatial Data Processing (QGIS)
 
-1. **Data Harmonisation**
-   • Standardised coordinate reference systems (CRS)
-   • Cleaned and harmonised LGA and ward names
+• Harmonise and clean all spatial datasets, ensuring consistent coordinate reference systems and standardised LGA and ward identifiers.
 
-2. **Ward-to-LGA Aggregation**
-   • Ward-level case data spatially joined to LGA boundaries
-   • Case counts aggregated using sum to derive total cases per LGA
+• Perform spatial joins to aggregate ward-level cVDPV2 case data to the LGA level.
 
-3. **Population Density Integration**
-   • Zonal statistics applied to extract mean population density for each LGA
+• Apply zonal statistics to extract mean population density values for each LGA.
 
-4. **Risk Scoring**
-   • Case counts classified into five ordinal risk scores (1–5) using natural breaks
-   • Higher scores represent greater epidemiological concern
+• Classify aggregated case counts into ordinal risk scores to reflect relative epidemiological burden.
 
-5. **Composite Risk Index Development**
-   • Combined:
-     • Total cVDPV2 cases  
-     • Case-based risk score  
-     • Mean population density  
-   • LGAs classified into:
-     • Very Low Risk  
-     • Low Risk  
-     • Moderate Risk  
-     • High Risk  
-     • Very High Risk  
+• Combine case counts, risk scores, and population density to generate a composite cVDPV2 risk index for each LGA.
 
 
 
 ### 4.2 Dashboard Development (Power BI)
 
 The final processed dataset was imported into Power BI to develop an interactive dashboard featuring:
-• National choropleth map of cVDPV2 risk by LGA  
+• National choropleth map of cVDPV2 risk by LGA
+
 • Distribution of LGAs by risk category  
+
 • Top 10 high-risk LGAs by composite risk index  
+
 • Summary indicators for total cases and priority LGAs  
+
 • Interactive filters by state and risk class
 
 
@@ -86,8 +73,9 @@ The final processed dataset was imported into Power BI to develop an interactive
 
 ### 5.1 National cVDPV2 Burden
 
-- **Total reported cVDPV2 cases:** **7,759**
-- **LGAs classified as High or Very High Risk:** **27**
+• **Total reported cVDPV2 cases:** **7,759**
+  
+• **LGAs classified as High or Very High Risk:** **27**
 
 Although the majority of LGAs fall into lower risk categories, a small subset accounts for a disproportionate share of national transmission risk.
 
@@ -98,8 +86,10 @@ Although the majority of LGAs fall into lower risk categories, a small subset ac
 The national risk map reveals that cVDPV2 risk in Nigeria is highly clustered, rather than evenly distributed.
 
 • Most LGAs fall within Very Low or Low Risk categories  
+
 • High and Very High Risk LGAs form distinct spatial clusters, particularly in:
   • Northern urban centres  
+  
   • Densely populated peri-urban areas  
 
 This pattern suggests sustained local transmission rather than isolated outbreaks.
@@ -109,9 +99,13 @@ This pattern suggests sustained local transmission rather than isolated outbreak
 ### 5.3 Risk Category Distribution
 
 • Very Low Risk - 462
+
 • Low Risk - 223
+
 • Moderate Risk - 57
+
 • High Risk - 17
+
 • Very High Risk - 10
 
 **Key Insight:**  
@@ -124,9 +118,10 @@ Only 3.5% of LGAs fall into High or Very High Risk categories, highlighting the 
 The highest-priority LGAs identified include:
 
 • Sokoto North (Sokoto) – 1,048 cases (Risk Index: 4.60)  
-• Maiduguri (Borno) – 1,015 cases (4.20)  
-• Katsina (Katsina) – 787 cases (4.20) 
 
+• Maiduguri (Borno) – 1,015 cases (4.20)  
+
+• Katsina (Katsina) – 787 cases (4.20) 
 
 **Key Insight:**  
 Urban LGAs with high population density dominate the high-risk ranking, reinforcing their role as transmission amplifiers.
@@ -137,7 +132,9 @@ Urban LGAs with high population density dominate the high-risk ranking, reinforc
 
 The analysis demonstrates that cVDPV2 transmission risk in Nigeria is spatially concentrated and predictable. High-risk LGAs are characterised by:
 • High case burden  
+
 • High population density  
+
 • Urban or peri-urban settings  
 
 LGAs with elevated risk indices but comparatively lower reported cases may indicate surveillance gaps or emerging transmission, underscoring the value of the composite risk index beyond raw case counts.
@@ -148,18 +145,22 @@ LGAs with elevated risk indices but comparatively lower reported cases may indic
 
 ### 7.1 Immunisation Planning
 • Prioritise Supplementary Immunisation Activities (SIAs) in High and Very High Risk LGAs  
+
 • Strengthen routine immunisation in Moderate Risk LGAs to prevent escalation  
 
 ### 7.2 Surveillance Strengthening
 • Expand environmental surveillance in high-risk urban LGAs  
+
 • Improve AFP case detection sensitivity in identified clusters  
 
 ### 7.3 Resource Allocation
 • Allocate vaccines, logistics, and personnel based on risk ranking
+
 • Focus interventions where the public health return is highest
 
 ### 7.4 Monitoring and Early Warning
 • Use the dashboard as a dynamic monitoring tool
+
 • Track changes in LGA risk classification over time
 
 
@@ -167,7 +168,9 @@ LGAs with elevated risk indices but comparatively lower reported cases may indic
 ## 8. Limitations
 
 • Absence of WASH and immunisation coverage data limited causal interpretation  
+
 • Surveillance data subject to under-reporting  
+
 • Population density used as a proxy rather than a direct measure of transmission  
 
 
@@ -183,7 +186,11 @@ The methodology is scalable and transferable to other infectious diseases requir
 ## 10. Tools and Skills
 
 • QGIS (spatial aggregation, zonal statistics, risk modelling)  
+
 • Power BI (interactive dashboards, mapping, ranking)  
+
 • Spatial epidemiology  
+
 • Public health analytics  
+
 • GIS for decision support 
