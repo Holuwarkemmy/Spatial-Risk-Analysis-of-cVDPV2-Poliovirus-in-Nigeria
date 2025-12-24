@@ -4,7 +4,9 @@
 ## 1. Introduction
 
 Nigeria has made significant progress towards polio eradication; however, the continued circulation of **circulating vaccine-derived poliovirus type 2 (cVDPV2) remains a major public health concern. Persistent outbreaks are often driven by immunity gaps, high population concentration, and uneven surveillance performance, necessitating targeted and data-driven responses.
+
 Traditional tabular surveillance reports offer limited insight into where transmission risk is concentrated and how interventions should be prioritised geographically. Spatial analysis provides a powerful means of transforming surveillance data into actionable intelligence for immunisation planning and outbreak prevention.
+
 This project applies GIS-based spatial analysis and interactive data visualisation to assess cVDPV2 risk at Local Government Area (LGA) level in Nigeria, producing a composite risk index and an operational decision-support dashboard.
 
 
@@ -18,7 +20,9 @@ To identify, classify, and visualise LGA level cVDPV2 transmission risk in Niger
 ### Objectives
 
 • Aggregate ward-level cVDPV2 case data to the Local Government Area (LGA) level and integrate population density to assess transmission potential.
+
 • Develop a composite spatial risk index to classify LGAs by cVDPV2 transmission risk.
+
 • Visualise and communicate high-risk LGAs through an interactive dashboard to support targeted immunisation and surveillance planning.
 
 
@@ -27,7 +31,9 @@ To identify, classify, and visualise LGA level cVDPV2 transmission risk in Niger
 ### Datasets Used
 
 • Ward level cVDPV2 Surveillance Data
+
 • GRID3 Nigeria LGA boundary shapefile
+
 • Population Density Raster for under 5 years 
 
 
@@ -61,7 +67,7 @@ To identify, classify, and visualise LGA level cVDPV2 transmission risk in Niger
      • Low Risk  
      • Moderate Risk  
      • High Risk  
-      Very High Risk  
+     • Very High Risk  
 
 
 
