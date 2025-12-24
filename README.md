@@ -3,7 +3,7 @@
 
 ## 1. Introduction
 
-Nigeria has made significant progress towards polio eradication; however, the continued circulation of **circulating vaccine-derived poliovirus type 2 (cVDPV2) remains a major public health concern. Persistent outbreaks are often driven by immunity gaps, high population concentration, and uneven surveillance performance, necessitating targeted and data-driven responses.
+Nigeria has made significant progress towards polio eradication; however, the continued circulation of circulating vaccine-derived poliovirus type 2 (cVDPV2) remains a major public health concern. Persistent outbreaks are often driven by immunity gaps, high population concentration, and uneven surveillance performance, necessitating targeted and data-driven responses.
 
 Traditional tabular surveillance reports offer limited insight into where transmission risk is concentrated and how interventions should be prioritised geographically. Spatial analysis provides a powerful means of transforming surveillance data into actionable intelligence for immunisation planning and outbreak prevention.
 
